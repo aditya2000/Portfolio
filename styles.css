@@ -195,7 +195,7 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   bottom: 0;
   margin-top: 2em;
-  font-size: 1vw;
+  font-size: .5em;
 }
 
 .footer div {
@@ -207,8 +207,14 @@ body::-webkit-scrollbar-thumb {
   color: #666;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   #about, #work, #contact {
-    font-size: 1.5vw;
+    font-size: .65em;
+  }
+  #github, #codepen {
+    padding: 0em;
+  }
+  #insta, #twitter, #gmail {
+    padding: 0em;
   }
 }
