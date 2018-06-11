@@ -48,6 +48,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 1.5em;
   line-height:2em;
   transition: .75s;
+  margin-right: 1em;
 }
 
 .links:hover {
