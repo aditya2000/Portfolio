@@ -206,3 +206,9 @@ body::-webkit-scrollbar-thumb {
 .footer div p a {
   color: #666;
 }
+
+@media screen and (min-width: 480px) {
+  #about, #work, #contact {
+    font-size: 1.5vw;
+  }
+}
