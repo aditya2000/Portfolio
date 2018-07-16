@@ -163,11 +163,28 @@ body::-webkit-scrollbar-thumb {
   color: #666;
 }
 
-.github-div, .codepen-div {
-}
-
 #github, #codepen {
   padding: 5em;
+  text-align: center;
+  color: #666;
+}
+
+#skills {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 5em;
+  height: 100%;
+  font-size: 1.25vw;
+  border-top: 1px solid rgb(138,255,224);
+}
+
+#skills-text {
+  padding: 10em;
+  color: #666;
+}
+
+.skills-div {
+  padding: 1.1em;
   text-align: center;
   color: #666;
 }
